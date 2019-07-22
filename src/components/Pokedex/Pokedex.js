@@ -1,10 +1,11 @@
 import React from 'react';
 
 class Pokedex extends React.Component {
-    render(){
-        return (
-
-            
+    render() {
+        return ( 
+           <div className="pokeDetails">
+               
+           </div> 
         )
     }
 }
