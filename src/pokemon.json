@@ -1,0 +1,50 @@
+[
+    {   "id": "4", 
+        "name": "Charmander", 
+        "type": "fire", 
+        "base_experience": "62",
+        "img": "/images/charmander.png"
+    },
+    {   "id": "7", 
+        "name": "Squirtle", 
+        "type": "water", 
+        "base_experience": "63",
+        "img": "/images/squirtle.png"
+    },
+    {   "id": "11", 
+        "name": "Caterpie", 
+        "type": "bug", 
+        "base_experience": "39",
+        "img": "/images/caterpie.png"
+    },
+    {   "id": "12", 
+        "name": "Pidgey", 
+        "type": "normal/flying", 
+        "base_experience": "50",
+        "img": "/images/pidgey.png"
+    },
+    {   "id": "25", 
+        "name": "Pikachu", 
+        "type": "electric", 
+        "base_experience": "112",
+        "img": "/images/pikachu.png"
+    },
+    {   "id": "39", 
+        "name": "Weedle", 
+        "type": "bug/poison", 
+        "base_experience": "39",
+        "img": "/images/weedle.png"
+    },
+    {   "id": "94", 
+        "name": "Rattata", 
+        "type": "normal", 
+        "base_experience": "51",
+        "img": "/images/rattata.png"
+    },
+    {   "id": "133", 
+        "name": "Bulbasaur", 
+        "type": "grass/poison", 
+        "base_experience": "64",
+        "img": "/images/bulbasaur.png"
+    }
+  ]
