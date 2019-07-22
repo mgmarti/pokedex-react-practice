@@ -1,11 +1,16 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 
-class Pokecard extends React.Component {
+
+class Pokecard extends Component {
     render(){
         return (
             <div className="pokeDetails">
-
+                <img src={this.props.img} />
+                <h4>
+                {this.props.name}
+                </h4> 
+                     
             </div>
         )
     }
