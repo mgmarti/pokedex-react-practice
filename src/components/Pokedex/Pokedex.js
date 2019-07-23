@@ -6,16 +6,18 @@ import Pokecard from '../Pokecard/Pokecard';
 class Pokedex extends Component {
     render(){
         return(
-          <div className="wrapper">
-              {pokemon.map(pokemon => (
-              <Pokecard 
-              img={pokemon.img}
-              name={pokemon.name}
-              type={pokemon.type}
-              exp={pokemon.base_experience}
-              />
-          ))}
-          </div>
+            <div className="Pokedex">
+                <div className="pokedex-cards">
+                    {pokemon.map(pokemon => (
+                    <Pokecard 
+                    img={pokemon.img}
+                    name={pokemon.name}
+                    type={pokemon.type}
+                    exp={pokemon.base_experience}
+                    />
+                ))}
+                </div>
+            </div>
         )
     }
 }

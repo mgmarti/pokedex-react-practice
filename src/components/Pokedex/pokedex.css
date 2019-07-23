@@ -1,9 +1,11 @@
-.wrapper {
-    width: 800px;
-    height: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: flex-start;
-    overflow: auto;
-  }
+.Pokedex {
+  width: 850px;
+  margin: auto;
+}
+
+.pokedex-cards {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

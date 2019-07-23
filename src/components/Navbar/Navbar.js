@@ -1,11 +1,12 @@
 import React from 'react';
+import './Navbar.css';
 
 class Navbar extends React.Component {
     render(){
         return (
-            <nav className="navbar navbar-light bg-light">
-                <span className="navbar-brand mb-0 h1">Pokedex</span>
-            </nav> 
+           <div className="main-header">
+               <h1>Pokédex</h1>
+           </div>
         )
     }
 }
